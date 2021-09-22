@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All rights reserved"
+# issueTrackerURL=""
+
+[[mods]]
+modId="achristmasmod"
+version="1.0.0"
+displayName="A Christmas Mod"
+# updateJSONURL=""
+# displayURL=""
+# logoFile=""
+authors="Willatendo"
+description='''
+A 1.17.1 mod that adds new christmas and other winter-time holiday related things!
+'''
+
+[[dependencies.achristmasmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.achristmasmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
