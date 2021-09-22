@@ -1,3 +1,30 @@
 {
+	"biome.achristmasmod.winter_plains": "Winter Plains",
+	"biome.achristmasmod.winter_sunflower_plains": "Winter Sunflower Plains",
+	
+	"biome.achristmasmod.winter_forest": "Winter Forest",
+	"biome.achristmasmod.winter_forest_hills": "Winter Forest Hills",
+	"biome.achristmasmod.winter_flower_forest": "Winter Flower Forest",
+	
+	"biome.achristmasmod.winter_mountains": "Winter Mountians",
+	"biome.achristmasmod.winter_mountains_edge": "Winter Mountians Edge",
+	"biome.achristmasmod.winter_wooded_mountains": "Winter Wooded Mountians",
+	"biome.achristmasmod.winter_gravelly_mountains": "Winter Gravelly Mountians",
+	"biome.achristmasmod.winter_modified_gravelly_mountains": "Winter Gravelly Mountians+",
+	
+	"biome.achristmasmod.winter_taiga": "Winter Taiga",
+	"biome.achristmasmod.winter_taiga_hills": "Winter Taiga Hills",
+	"biome.achristmasmod.snowy_winter_taiga": "Snowy Winter Taiga",
+	"biome.achristmasmod.snowy_winter_taiga_hills": "Snowy Winter Taiga Hills",
+	"biome.achristmasmod.winter_taiga_mountains": "Winter Taiga Mountians",
+	"biome.achristmasmod.snowy_winter_taiga_mountains": "Snowy Winter Taiga Mountians",
+	
+	"biome.achristmasmod.winter_swamp": "Winter Swamp",
+	"biome.achristmasmod.winter_swamp_hills": "Winter Swamp Hills",
+
+	"biome.achristmasmod.winter_desert": "Winter Desert",
+	"biome.achristmasmod.winter_desert_hills": "Winter Desert Hills",
+	"biome.achristmasmod.winter_desert_lakes": "Winter Desert Lakes",
+	
 	"generator.achristmasmod.winter": "Winter"
 }
