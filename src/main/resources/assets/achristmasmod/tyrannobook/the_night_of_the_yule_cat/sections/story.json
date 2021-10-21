@@ -1,0 +1,12 @@
+[
+	{
+		"name": "story",
+		"type": "text",
+		"data": "story/story.json"
+	},
+	{
+		"name": "story_continued",
+		"type": "text",
+		"data": "story/story_continued.json"
+	}
+]

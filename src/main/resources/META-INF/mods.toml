@@ -1,6 +1,6 @@
 modLoader="javafml"
-loaderVersion="[37,)"
-license="All rights reserved"
+loaderVersion="[36,)"
+license="Custom"
 # issueTrackerURL=""
 
 [[mods]]
@@ -8,23 +8,30 @@ modId="achristmasmod"
 version="1.0.0"
 displayName="A Christmas Mod"
 # updateJSONURL=""
-# displayURL=""
+displayURL="https://www.curseforge.com/minecraft/mc-mods/a-christmas-mod-forge"
 # logoFile=""
 authors="Willatendo"
 description='''
-A 1.17.1 mod that adds new christmas and other winter-time holiday related things!
+A Forge mod filled with lots of holiday based features!
 '''
 
 [[dependencies.achristmasmod]]
     modId="forge"
     mandatory=true
-    versionRange="[37,)"
+    versionRange="[36,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.achristmasmod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1,1.18)"
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.achristmasmod]]
+    modId="tyrannotitanlib"
+    mandatory=true
+    versionRange="[v1.2.3,)"
     ordering="NONE"
     side="BOTH"
