@@ -1,0 +1,144 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"1": "achristmasmod:block/spike_bars"
+	},
+	"elements": [
+		{
+			"from": [
+				8,
+				0,
+				7
+			],
+			"to": [
+				8,
+				10,
+				9
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						9,
+						6,
+						7,
+						16
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						0,
+						10
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						7,
+						6,
+						9,
+						16
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [
+				7,
+				0,
+				8
+			],
+			"to": [
+				9,
+				10,
+				8
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						6,
+						9,
+						16
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						9,
+						6,
+						7,
+						16
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

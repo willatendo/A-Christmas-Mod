@@ -1,0 +1,6 @@
+{
+	"parent": "achristmasmod:block/template_chimney_base",
+	"textures": {
+		"texture": "block/stone_bricks"
+	}
+}

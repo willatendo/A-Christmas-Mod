@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "achristmasmod:item/the_night_of_the_yule_cat"
+	}
+}

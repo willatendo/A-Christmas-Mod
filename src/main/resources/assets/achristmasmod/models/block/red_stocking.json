@@ -1,0 +1,7 @@
+{
+	"parent": "achristmasmod:block/template_stocking",
+	"textures": {
+		"colour": "block/red_wool",
+		"particle": "block/red_wool"
+	}
+}

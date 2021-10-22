@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "achristmasmod:block/red_stocking"
+		},
+		"facing=south": {
+			"model": "achristmasmod:block/red_stocking",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "achristmasmod:block/red_stocking",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "achristmasmod:block/red_stocking",
+			"y": 90
+		}
+	}
+}

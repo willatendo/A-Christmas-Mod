@@ -1,4 +1,17 @@
 {
+	// ITEMS
+	
+	//Stories
 	"item.achristmasmod.the_night_of_the_yule_cat": "Christmas Story",
-	"story_book.achristmasmod.the_night_of_the_yule_cat": "The Night of The Yule Cat"
+	"story_book.achristmasmod.the_night_of_the_yule_cat": "The Night of The Yule Cat",
+	
+	// BLOCKS
+	
+	//Stockings
+	"block.achristmasmod.red_stocking": "Red Stocking",
+	"block.achristmasmod.green_stocking": "Green Stocking",
+	
+	//Chimney
+	"block.achristmasmod.brick_chimney": "Brick Chimney",
+	"block.achristmasmod.stone_brick_chimney": "Stone Brick Chimney"
 }

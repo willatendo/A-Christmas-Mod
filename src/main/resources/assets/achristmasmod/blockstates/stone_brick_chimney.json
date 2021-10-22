@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"up=true,down=false": {
+			"model": "achristmasmod:block/stone_brick_chimney_base"
+		},
+		"up=false,down=false": {
+			"model": "achristmasmod:block/stone_brick_chimney_base"
+		},
+		"up=true,down=true": {
+			"model": "achristmasmod:block/stone_brick_chimney_mid"
+		},
+		"up=false,down=true": {
+			"model": "achristmasmod:block/stone_brick_chimney_top"
+		}
+	}
+}

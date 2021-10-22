@@ -1,0 +1,145 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"0": "achristmasmod:block/spike_bars",
+		"particle": "achristmasmod:block/spike_bars"
+	},
+	"elements": [
+		{
+			"from": [
+				8,
+				0,
+				7
+			],
+			"to": [
+				8,
+				10,
+				8
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						9,
+						6,
+						8,
+						16
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						8,
+						6,
+						9,
+						16
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				7,
+				0,
+				7
+			],
+			"to": [
+				9,
+				10,
+				7
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						7,
+						6,
+						9,
+						16
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						9,
+						6,
+						7,
+						16
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
