@@ -6,12 +6,17 @@ import org.apache.logging.log4j.Logger;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.util.text.TranslationTextComponent;
+import tyrannotitanlib.library.base.itemgroup.TabBuilder;
 
 public class ModUtils 
 {
 	public static final Logger LOGGER = LogManager.getLogger(ModUtils.ID);
 	
 	public static final String ID = "achristmasmod";
+	
+	public static final TabBuilder CHRISTMAS = new TabBuilder(ID, "christmas");
+	public static final TabBuilder HANUKKAH = new TabBuilder(ID, "hanukkah");
+	public static final TabBuilder KWANZAA = new TabBuilder(ID, "kwanzaa");
 	
 	public static ResourceLocation rL(String location)
 	{

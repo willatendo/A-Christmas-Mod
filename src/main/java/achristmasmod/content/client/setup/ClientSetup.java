@@ -16,5 +16,6 @@ public class ClientSetup
 	public static void setupClient(FMLClientSetupEvent event)
 	{
 		RenderTypeLookup.setRenderLayer(MiscBlocks.SPIKE_BARS.getBlock(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(MiscBlocks.GINGERBREAD_HOUSE.getBlock(), RenderType.translucent());
 	}
 }

@@ -7,7 +7,6 @@ import achristmasmod.content.server.ModUtils;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Rarity;
 import net.minecraft.util.ActionResult;
@@ -22,7 +21,7 @@ public class StoryBookItem extends Item
 	
 	public StoryBookItem(String name, Items item) 
 	{
-		super(new Properties().tab(ItemGroup.TAB_MISC).stacksTo(1).rarity(Rarity.RARE));
+		super(new Properties().tab(ModUtils.CHRISTMAS).stacksTo(1).rarity(Rarity.RARE));
 		this.name = name;
 		this.item = item;
 	}

@@ -1,11 +1,23 @@
 {
+	// ITEM GROUPS
+	"itemGroup.achristmasmod.christmas": "Christmas",
+	"itemGroup.achristmasmod.hanukkah": "Hanukkah",
+	"itemGroup.achristmasmod.kwanzaa": "Kwanzaa",
+
 	// ITEMS
+	
+	//Food
+	"item.achristmasmod.candy_cane": "Candy Cane",
+	"item.achristmasmod.chocolate_bar": "Chocolate Bar",
 	
 	//Stories
 	"item.achristmasmod.the_night_of_the_yule_cat": "Christmas Story",
 	"story_book.achristmasmod.the_night_of_the_yule_cat": "The Night of The Yule Cat",
 	
 	// BLOCKS
+	
+	//Gingerbread House
+	"block.achristmasmod.gingerbread_house": "Gingerbread House",
 	
 	//Stockings
 	"block.achristmasmod.red_stocking": "Red Stocking",

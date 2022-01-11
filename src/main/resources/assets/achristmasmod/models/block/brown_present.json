@@ -1,0 +1,8 @@
+{
+	"parent": "achristmasmod:block/template_present",
+	"textures": {
+		"primary": "block/brown_terracotta",
+		"secondary": "block/pink_terracotta",
+		"particle": "block/brown_terracotta"
+	}
+}
