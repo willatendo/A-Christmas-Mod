@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "#calendar"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#calendar"},
+				"east": {"uv": [15, 0, 16, 16], "texture": "#calendar"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#calendar"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#calendar"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#calendar"},
+				"down": {"uv": [0, 15, 16, 16], "texture": "#calendar"}
+			}
+		}
+	]
+}

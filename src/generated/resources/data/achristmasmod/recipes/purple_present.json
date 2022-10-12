@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "present",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "$": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "pattern": [
+    "#$",
+    "$#"
+  ],
+  "result": {
+    "item": "achristmasmod:purple_present"
+  }
+}

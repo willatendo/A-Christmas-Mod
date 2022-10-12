@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "achristmasmod:block/calendar_east",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "achristmasmod:block/calendar_north"
+    },
+    "facing=south": {
+      "model": "achristmasmod:block/calendar_south",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "achristmasmod:block/calendar_west",
+      "y": 270
+    }
+  }
+}

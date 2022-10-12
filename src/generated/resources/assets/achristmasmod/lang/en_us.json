@@ -1,0 +1,22 @@
+{
+  "block.achristmasmod.black_present": "Black Present",
+  "block.achristmasmod.blue_present": "Blue Present",
+  "block.achristmasmod.brown_present": "Brown Present",
+  "block.achristmasmod.calendar": "Calendar",
+  "block.achristmasmod.calendar.date": "It is %s %s %s",
+  "block.achristmasmod.cyan_present": "Cyan Present",
+  "block.achristmasmod.gray_present": "Gray Present",
+  "block.achristmasmod.green_present": "Green Present",
+  "block.achristmasmod.light_blue_present": "Light Blue Present",
+  "block.achristmasmod.light_gray_present": "Light Gray Present",
+  "block.achristmasmod.lime_present": "Lime Present",
+  "block.achristmasmod.magenta_present": "Magenta Present",
+  "block.achristmasmod.orange_present": "Orange Present",
+  "block.achristmasmod.pink_present": "Pink Present",
+  "block.achristmasmod.present.notopenable": "It's not December 25th! You've got to wait!",
+  "block.achristmasmod.present.opendate": "Can only be opened on December 25.",
+  "block.achristmasmod.purple_present": "Purple Present",
+  "block.achristmasmod.red_present": "Red Present",
+  "block.achristmasmod.white_present": "White Present",
+  "block.achristmasmod.yellow_present": "Yellow Present"
+}

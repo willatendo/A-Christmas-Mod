@@ -1,0 +1,6 @@
+{
+  "parent": "achristmasmod:block/template_calendar",
+  "textures": {
+    "calendar": "achristmasmod:block/calendar"
+  }
+}

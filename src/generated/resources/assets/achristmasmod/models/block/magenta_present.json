@@ -1,0 +1,7 @@
+{
+  "parent": "achristmasmod:block/template_present",
+  "textures": {
+    "ribbon": "minecraft:block/magenta_terracotta",
+    "wrapping": "minecraft:block/magenta_wool"
+  }
+}
