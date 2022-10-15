@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "achristmasmod:block/multi_color_fairy_lights"
+  }
+}

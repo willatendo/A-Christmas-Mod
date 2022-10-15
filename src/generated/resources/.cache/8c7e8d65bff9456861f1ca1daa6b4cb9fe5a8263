@@ -1,4 +1,4 @@
-// 1.19.2	2022-10-14T18:40:18.4633435	Registrate Provider for achristmasmod [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+// 1.19.2	2022-10-14T22:40:16.6116525	Registrate Provider for achristmasmod [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
 b6f4a60c6b167323614c30da58b067ee09477979 assets/achristmasmod/blockstates/black_present.json
 9c81f81aad7d11d8579113b2a819aca717620cd7 assets/achristmasmod/blockstates/blue_present.json
 7616fe4b01260a8caba16403d0dd558194e8077c assets/achristmasmod/blockstates/brown_present.json
@@ -10,14 +10,15 @@ e742dae57cb8dcab879873f913837d1655a99bc2 assets/achristmasmod/blockstates/light_
 5d73bbb67efe9d967ad793e521488ef95276cee1 assets/achristmasmod/blockstates/light_gray_present.json
 4056e1028444e7a1b0a6d3dd0c8e90cf5cc19f21 assets/achristmasmod/blockstates/lime_present.json
 a8cd034d72037909bbb000051d566c42b2d6bb2d assets/achristmasmod/blockstates/magenta_present.json
+a5c3bdbd5224841f7e44f01887acc9aeff5d1e82 assets/achristmasmod/blockstates/multi_color_fairy_lights.json
 58d1cd2ca562ef0b081d3c3b4001ab338276f1cb assets/achristmasmod/blockstates/orange_present.json
 d8602fee1f480039e41f6e4ce25d831fa69e78cf assets/achristmasmod/blockstates/pink_present.json
 c5fba9ded25e3ecd0a0a57f4781f7c83de588fb6 assets/achristmasmod/blockstates/purple_present.json
 c267a54db3dd2c07eced8a02477e6b084a2ca96c assets/achristmasmod/blockstates/red_present.json
 76d21a127b2944e0dc91039ef68e3936994ac9ac assets/achristmasmod/blockstates/white_present.json
 14713dbc718282c9883ef615fe0deba2672017ae assets/achristmasmod/blockstates/yellow_present.json
-2d095483d3a8e2019230b665eada670bfdd45d4f assets/achristmasmod/lang/en_ud.json
-77d6a11e639953dca85d1fe5d5065f2fb4783f23 assets/achristmasmod/lang/en_us.json
+2adeb52fc1f50fc3c855cfa08fb7a30e5ecccc34 assets/achristmasmod/lang/en_ud.json
+37f96133b5d63f0a19ee81433fbda9a9b9a51d27 assets/achristmasmod/lang/en_us.json
 c09dc7e9290557d99568992adaccbbbdee528ea6 assets/achristmasmod/models/block/black_present.json
 b01fe8df12ab1908eb7faa12e3fffb1ac0b18287 assets/achristmasmod/models/block/blue_present.json
 4fb4a816ab8cabe3dc94de545994b6b63cab8ecc assets/achristmasmod/models/block/brown_present.json
@@ -32,6 +33,7 @@ d1e72cccc20489289d7f61fcd6cd4c2f33d411ee assets/achristmasmod/models/block/light
 5e8eba033fa9b82987fd442c3d5bebcf81c2d521 assets/achristmasmod/models/block/light_gray_present.json
 7045ecd828da03f7eb92185b886f525e29c8a248 assets/achristmasmod/models/block/lime_present.json
 c84afc287b48f156cf157b33230cdc133447f6b8 assets/achristmasmod/models/block/magenta_present.json
+18ced87994ac471e47a72d0dbf5431248742ef35 assets/achristmasmod/models/block/multi_color_fairy_lights.json
 90993e3a19a0e5a64060f10e20cfd8f83a556493 assets/achristmasmod/models/block/orange_present.json
 08898a0942d2c08880e4e647cea1457f268c8761 assets/achristmasmod/models/block/pink_present.json
 185e5dc0791b4f2f42b6890fec33dfe9bb76d5dc assets/achristmasmod/models/block/purple_present.json
@@ -49,6 +51,7 @@ f05c4a08c8dd60ecbcef342c900714005e9584fd assets/achristmasmod/models/item/light_
 55588dcb9327d3afca091015f68f689933d5278e assets/achristmasmod/models/item/light_gray_present.json
 155c7f592fe184f6247624e05b972147e02bdcfa assets/achristmasmod/models/item/lime_present.json
 25187a469f8360c9987c6787224325793b7f98be assets/achristmasmod/models/item/magenta_present.json
+f46dd50ecd41d40be127c99e61817bfff6268b0e assets/achristmasmod/models/item/multi_color_fairy_lights.json
 8493d70e7f5bcd28e86309b5f99f5cb41216b599 assets/achristmasmod/models/item/orange_present.json
 a33ca22de04e55d11bb0da5f33881f6cc38d956c assets/achristmasmod/models/item/pink_present.json
 e66654f45dc98a460fd8b7e55905064cc30a98c0 assets/achristmasmod/models/item/purple_present.json
@@ -66,6 +69,7 @@ ab469e85459d40f59e339499290b19ebbcf045e0 data/achristmasmod/advancements/recipes
 cfc0c263c3baadb39dec1b2f3c2e2dde94fd3cf4 data/achristmasmod/advancements/recipes/decorations/light_gray_present.json
 26f0878cc1cccd668a6223083acf11cc8b3c1104 data/achristmasmod/advancements/recipes/decorations/lime_present.json
 57191cc9cda40303bf665dc61c623c6e833365e8 data/achristmasmod/advancements/recipes/decorations/magenta_present.json
+e020b847eff5eeabc21346a629c17dd44174c473 data/achristmasmod/advancements/recipes/decorations/multi_color_fairy_lights.json
 f3d75e9238d2d0519ebe3e1bed01c8007fb6c956 data/achristmasmod/advancements/recipes/decorations/orange_present.json
 6c4448d52f0f19fbc20301e03c900d39748aed95 data/achristmasmod/advancements/recipes/decorations/pink_present.json
 cb56334e92604d35c96a8ec4ef9c6bd72f18f315 data/achristmasmod/advancements/recipes/decorations/purple_present.json
@@ -83,6 +87,7 @@ eddb01afdf865c5a99f495a182716d378c60218c data/achristmasmod/loot_tables/blocks/l
 143e26059b205a37fe01c86671504250ff82aa67 data/achristmasmod/loot_tables/blocks/light_gray_present.json
 b6c9bf1d9591058e0d106504e151ac745376d798 data/achristmasmod/loot_tables/blocks/lime_present.json
 f722c508883ea7f969ff8e4ad0352828973818ee data/achristmasmod/loot_tables/blocks/magenta_present.json
+32db9aac753b3cfb47c20e6b89a8cf3bc961daf4 data/achristmasmod/loot_tables/blocks/multi_color_fairy_lights.json
 b467277cdf60dd12089cade983edee88155e2ab8 data/achristmasmod/loot_tables/blocks/orange_present.json
 edd2773dec91f173d82528d306f80b7df683f7bb data/achristmasmod/loot_tables/blocks/pink_present.json
 4195182e2d622dc41e32e411f01f7045aa5c5fb1 data/achristmasmod/loot_tables/blocks/purple_present.json
@@ -100,6 +105,7 @@ cae96c7bf98cec1680dd41fa6710284269dfeab2 data/achristmasmod/recipes/light_blue_p
 7102f6547fe2dfbb2d092e9eb1474ca0a6e4e481 data/achristmasmod/recipes/light_gray_present.json
 b5400b134d0f469b561fe63e5c9bd53929b07dc2 data/achristmasmod/recipes/lime_present.json
 506dd83e9e04f6350e1a3b71f41c7f08c2cc4b7c data/achristmasmod/recipes/magenta_present.json
+ffe2dd090153ba1fd5af4cf7906c08c4badb915e data/achristmasmod/recipes/multi_color_fairy_lights.json
 720e674cffebc06e8dee16e3bbe448891bfa509b data/achristmasmod/recipes/orange_present.json
 c5c1fc1338bb9029f7133ae6b4512bbc0ee0e980 data/achristmasmod/recipes/pink_present.json
 9dcc0a0cd6175d2eeaa43f31418466c77e859d42 data/achristmasmod/recipes/purple_present.json

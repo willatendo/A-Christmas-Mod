@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:redstone_lamp"
+    }
+  ],
+  "result": {
+    "item": "achristmasmod:multi_color_fairy_lights"
+  }
+}

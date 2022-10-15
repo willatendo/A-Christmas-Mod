@@ -16,12 +16,16 @@ import achristmasmod.server.util.ModCalendar;
 import achristmasmod.server.util.ModUtils;
 import achristmasmod.server.util.registrate.DyedBlockList;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ChristmasBlocks {
@@ -40,8 +44,9 @@ public class ChristmasBlocks {
 		provider.copy(ChristmasTags.Blocks.PRESENTS, ChristmasTags.Items.PRESENTS);
 	});
 
-	public static final BlockEntry<CalendarBlock> CALENDAR = REGISTRATE.block("calendar", CalendarBlock::new).properties(properties -> properties.of(Material.WOOL).instabreak().noCollission().randomTicks().sound(SoundType.WOOD)).blockstate((block, provider) -> provider.horizontalBlock(block.get(), state -> provider.models().withExistingParent("calendar_" + state.getValue(CalendarBlock.FACING).getName(), provider.modLoc("block/template_calendar")).texture("calendar", provider.modLoc("block/calendar")))).recipe((block, provider) -> ShapedRecipeBuilder.shaped(block.get()).pattern("##").pattern("##").define('#', Items.PAPER).unlockedBy("has_item", provider.has(Items.PAPER)).save(provider)).item().model((block, provider) -> provider.basicItem(block.get())).build().register();
+	public static final BlockEntry<CalendarBlock> CALENDAR = REGISTRATE.block("calendar", CalendarBlock::new).properties(properties -> properties.of(Material.WOOL).instabreak().noCollission().sound(SoundType.WOOD)).blockstate((block, provider) -> provider.horizontalBlock(block.get(), state -> provider.models().withExistingParent("calendar_" + state.getValue(CalendarBlock.FACING).getName(), provider.modLoc("block/template_calendar")).texture("calendar", provider.modLoc("block/calendar")))).recipe((block, provider) -> ShapedRecipeBuilder.shaped(block.get()).pattern("##").pattern("##").define('#', Items.PAPER).unlockedBy("has_item", provider.has(Items.PAPER)).save(provider)).item().model((block, provider) -> provider.basicItem(block.get())).build().register();
 	public static final DyedBlockList<PresentBlock> PRESENT_BLOCKS = new DyedBlockList<>(dyeColour -> REGISTRATE.block(dyeColour.getName() + "_present", PresentBlock::new).properties(properties -> properties.of(Material.WOOL, dyeColour.getMaterialColor()).instabreak().sound(SoundType.WOOL)).tag(ChristmasTags.Blocks.PRESENTS).blockstate((block, provider) -> provider.getVariantBuilder(block.get()).partialState().addModels(new ConfiguredModel(provider.models().withExistingParent(dyeColour.getName() + "_present", provider.modLoc("block/template_present")).texture("wrapping", provider.mcLoc("block/" + dyeColour.getName() + "_wool")).texture("ribbon", provider.mcLoc("block/" + dyeColour.getName() + "_terracotta"))))).recipe((block, provider) -> ShapedRecipeBuilder.shaped(block.get()).group("present").pattern("#$").pattern("$#").define('#', Items.PAPER).define('$', ForgeRegistries.ITEMS.getValue(new ResourceLocation(dyeColour.getName() + "_wool"))).unlockedBy("has_item", provider.has(ForgeRegistries.ITEMS.getValue(new ResourceLocation(dyeColour.getName() + "_wool")))).save(provider)).simpleItem().register());
+	public static final BlockEntry<Block> MULTI_COLOR_FAIRY_LIGHTS = REGISTRATE.block("multi_color_fairy_lights", Block::new).properties(properties -> properties.of(Material.WOOL).instabreak().noCollission().sound(SoundType.WOOL)).recipe((block, provider) -> ShapelessRecipeBuilder.shapeless(block.get()).requires(Items.RED_DYE).requires(Items.GREEN_DYE).requires(Items.CYAN_DYE).requires(Items.PURPLE_DYE).requires(Items.STRING).requires(Blocks.REDSTONE_LAMP).unlockedBy("has_item", provider.has(Blocks.REDSTONE_LAMP)).save(provider)).item().model((block, provider) -> provider.getBuilder(block.getName()).parent(new ModelFile.UncheckedModelFile("item/generated")).texture("layer0", provider.modLoc("block/" + block.getName()))).build().register();
 
 	public static void init() {
 	}
