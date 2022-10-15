@@ -3,7 +3,19 @@
   "block.achristmasmod.blue_present": "ʇuǝsǝɹԀ ǝnןᗺ",
   "block.achristmasmod.brown_present": "ʇuǝsǝɹԀ uʍoɹᗺ",
   "block.achristmasmod.calendar": "ɹɐpuǝןɐƆ",
+  "block.achristmasmod.calendar.april": "ןıɹdⱯ",
+  "block.achristmasmod.calendar.august": "ʇsnbnⱯ",
   "block.achristmasmod.calendar.date": "%s %s %s sı ʇI",
+  "block.achristmasmod.calendar.december": "ɹǝqɯǝɔǝᗡ",
+  "block.achristmasmod.calendar.february": "ʎɹɐnɹqǝℲ",
+  "block.achristmasmod.calendar.january": "ʎɹɐnuɐſ",
+  "block.achristmasmod.calendar.july": "ʎןnſ",
+  "block.achristmasmod.calendar.june": "ǝunſ",
+  "block.achristmasmod.calendar.march": "ɥɔɹɐW",
+  "block.achristmasmod.calendar.may": "ʎɐW",
+  "block.achristmasmod.calendar.november": "ɹǝqɯǝʌoN",
+  "block.achristmasmod.calendar.october": "ɹǝqoʇɔO",
+  "block.achristmasmod.calendar.september": "ɹǝqɯǝʇdǝS",
   "block.achristmasmod.cyan_present": "ʇuǝsǝɹԀ uɐʎƆ",
   "block.achristmasmod.gray_present": "ʇuǝsǝɹԀ ʎɐɹ⅁",
   "block.achristmasmod.green_present": "ʇuǝsǝɹԀ uǝǝɹ⅁",
@@ -18,5 +30,6 @@
   "block.achristmasmod.purple_present": "ʇuǝsǝɹԀ ǝןdɹnԀ",
   "block.achristmasmod.red_present": "ʇuǝsǝɹԀ pǝᴚ",
   "block.achristmasmod.white_present": "ʇuǝsǝɹԀ ǝʇıɥM",
-  "block.achristmasmod.yellow_present": "ʇuǝsǝɹԀ ʍoןןǝʎ"
+  "block.achristmasmod.yellow_present": "ʇuǝsǝɹԀ ʍoןןǝʎ",
+  "jei.achristmasmod.gifts": "sʇɟı⅁"
 }

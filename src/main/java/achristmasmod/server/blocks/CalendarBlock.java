@@ -13,8 +13,7 @@ public class CalendarBlock extends AbstractCalendarBlock {
 
 	@Override
 	public InteractionResult useFunction(ModCalendar modCalendar, Level level, Player player) {
-		this.use = 1;
-		player.sendSystemMessage(Component.translatable("block.achristmasmod.calendar.date", modCalendar.getMonth(), modCalendar.getDate() + (modCalendar.getDate().endsWith("1") ? "st," : modCalendar.getDate().endsWith("2") ? "nd," : modCalendar.getDate().endsWith("3") ? "rd," : "th,"), modCalendar.getYear()));
+		player.displayClientMessage(Component.translatable("block.achristmasmod.calendar.date", modCalendar.getMonth(), modCalendar.getDate() + (modCalendar.getDate().endsWith("1") ? "st," : modCalendar.getDate().endsWith("2") ? "nd," : modCalendar.getDate().endsWith("3") ? "rd," : "th,"), modCalendar.getYear()), true);
 		return InteractionResult.SUCCESS;
 	}
 }

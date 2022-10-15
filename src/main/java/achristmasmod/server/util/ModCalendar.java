@@ -50,7 +50,48 @@ public class ModCalendar {
 		if (theMonth == 11) {
 			month = "december";
 		}
-		return Component.translatable("modCalendar.achristmasmod." + month).getString();
+		return Component.translatable("block.achristmasmod.calendar." + month).getString();
+	}
+
+	public String getMonth(int theMonth) {
+		String month = "";
+		if (theMonth == 0) {
+			month = "january";
+		}
+		if (theMonth == 1) {
+			month = "february";
+		}
+		if (theMonth == 2) {
+			month = "march";
+		}
+		if (theMonth == 3) {
+			month = "april";
+		}
+		if (theMonth == 4) {
+			month = "may";
+		}
+		if (theMonth == 5) {
+			month = "june";
+		}
+		if (theMonth == 6) {
+			month = "july";
+		}
+		if (theMonth == 7) {
+			month = "august";
+		}
+		if (theMonth == 8) {
+			month = "september";
+		}
+		if (theMonth == 9) {
+			month = "october";
+		}
+		if (theMonth == 10) {
+			month = "november";
+		}
+		if (theMonth == 11) {
+			month = "december";
+		}
+		return month;
 	}
 
 	public String getDate() {

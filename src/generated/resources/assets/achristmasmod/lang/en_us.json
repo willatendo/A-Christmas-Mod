@@ -3,7 +3,19 @@
   "block.achristmasmod.blue_present": "Blue Present",
   "block.achristmasmod.brown_present": "Brown Present",
   "block.achristmasmod.calendar": "Calendar",
+  "block.achristmasmod.calendar.april": "April",
+  "block.achristmasmod.calendar.august": "August",
   "block.achristmasmod.calendar.date": "It is %s %s %s",
+  "block.achristmasmod.calendar.december": "December",
+  "block.achristmasmod.calendar.february": "February",
+  "block.achristmasmod.calendar.january": "January",
+  "block.achristmasmod.calendar.july": "July",
+  "block.achristmasmod.calendar.june": "June",
+  "block.achristmasmod.calendar.march": "March",
+  "block.achristmasmod.calendar.may": "May",
+  "block.achristmasmod.calendar.november": "November",
+  "block.achristmasmod.calendar.october": "October",
+  "block.achristmasmod.calendar.september": "September",
   "block.achristmasmod.cyan_present": "Cyan Present",
   "block.achristmasmod.gray_present": "Gray Present",
   "block.achristmasmod.green_present": "Green Present",
@@ -18,5 +30,6 @@
   "block.achristmasmod.purple_present": "Purple Present",
   "block.achristmasmod.red_present": "Red Present",
   "block.achristmasmod.white_present": "White Present",
-  "block.achristmasmod.yellow_present": "Yellow Present"
+  "block.achristmasmod.yellow_present": "Yellow Present",
+  "jei.achristmasmod.gifts": "Gifts"
 }
