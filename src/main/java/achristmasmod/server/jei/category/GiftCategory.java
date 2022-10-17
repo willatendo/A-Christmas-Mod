@@ -1,5 +1,6 @@
 package achristmasmod.server.jei.category;
 
+import achristmasmod.server.blocks.ChristmasBlocks;
 import achristmasmod.server.jei.ChristmasJeiConstants;
 import achristmasmod.server.jei.recipe.GiftRecipe;
 import mezz.jei.api.constants.VanillaTypes;
@@ -11,7 +12,7 @@ import mezz.jei.api.recipe.RecipeIngredientRole;
 import mezz.jei.api.recipe.RecipeType;
 import mezz.jei.api.recipe.category.IRecipeCategory;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public class GiftCategory implements IRecipeCategory<GiftRecipe> {
@@ -20,7 +21,7 @@ public class GiftCategory implements IRecipeCategory<GiftRecipe> {
 
 	public GiftCategory(IGuiHelper guiHelper) {
 		this.background = guiHelper.createBlankDrawable(80, 40);
-		this.icon = guiHelper.createDrawableIngredient(VanillaTypes.ITEM_STACK, Items.STICK.getDefaultInstance());
+		this.icon = guiHelper.createDrawableIngredient(VanillaTypes.ITEM_STACK, ChristmasBlocks.PRESENT_BLOCKS.get(DyeColor.WHITE).asStack());
 	}
 
 	@Override

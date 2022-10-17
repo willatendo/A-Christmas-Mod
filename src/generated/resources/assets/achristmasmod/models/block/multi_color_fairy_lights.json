@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "achristmasmod:block/template_fairy_lights",
+  "render_type": "minecraft:cutout",
   "textures": {
-    "all": "achristmasmod:block/multi_color_fairy_lights"
+    "fairy_light": "achristmasmod:block/multi_color_fairy_lights"
   }
 }

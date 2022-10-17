@@ -1,7 +1,39 @@
 {
-  "variants": {
-    "": {
-      "model": "achristmasmod:block/multi_color_fairy_lights"
+  "multipart": [
+    {
+      "apply": {
+        "model": "achristmasmod:block/multi_color_fairy_lights"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "achristmasmod:block/multi_color_fairy_lights",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "achristmasmod:block/multi_color_fairy_lights",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "achristmasmod:block/multi_color_fairy_lights",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
     }
-  }
+  ]
 }
